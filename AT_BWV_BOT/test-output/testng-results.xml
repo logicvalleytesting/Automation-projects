@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="12" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6332" started-at="2019-05-20T13:42:02Z" finished-at="2019-05-20T13:42:09Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6332" started-at="2019-05-20T13:42:02Z" finished-at="2019-05-20T13:42:09Z">
+      <class name="BWV_Package.Get_token">
+        <test-method status="PASS" signature="Properties_config()" name="Properties_config" duration-ms="231" started-at="2019-05-20T13:42:02Z" finished-at="2019-05-20T13:42:03Z">
+        </test-method>
+      </class>
+      <class name="BWV_Package.Send_Email">
+        <test-method status="PASS" signature="Properties_config()" name="Properties_config" duration-ms="457" started-at="2019-05-20T13:42:03Z" finished-at="2019-05-20T13:42:03Z">
+        </test-method>
+        <test-method status="PASS" signature="endTest()" name="endTest" is-config="true" duration-ms="1" started-at="2019-05-20T13:42:03Z" finished-at="2019-05-20T13:42:03Z">
+        </test-method>
+        <test-method status="PASS" signature="get_results()" name="get_results" duration-ms="1" started-at="2019-05-20T13:42:07Z" finished-at="2019-05-20T13:42:07Z">
+        </test-method>
+        <test-method status="PASS" signature="endTest()" name="endTest" is-config="true" duration-ms="341" started-at="2019-05-20T13:42:07Z" finished-at="2019-05-20T13:42:07Z">
+        </test-method>
+        <test-method status="FAIL" signature="mail_configuration()" name="mail_configuration" duration-ms="1707" started-at="2019-05-20T13:42:07Z" finished-at="2019-05-20T13:42:09Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[javax.mail.SendFailedException: Invalid Addresses;
+  nested exception is:
+	com.sun.mail.smtp.SMTPAddressFailedException: 554 5.7.1 <unknown[106.51.49.134]>: Client host rejected: Access denied
+;
+  nested exception is:
+	com.sun.mail.smtp.SMTPAddressFailedException: 554 5.7.1 <unknown[106.51.49.134]>: Client host rejected: Access denied
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: javax.mail.SendFailedException: Invalid Addresses;
+  nested exception is:
+	com.sun.mail.smtp.SMTPAddressFailedException: 554 5.7.1 <unknown[106.51.49.134]>: Client host rejected: Access denied
+;
+  nested exception is:
+	com.sun.mail.smtp.SMTPAddressFailedException: 554 5.7.1 <unknown[106.51.49.134]>: Client host rejected: Access denied
+
+	at BWV_Package.Send_Email.mail_configuration(Send_Email.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:846)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1170)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1147)
+	at org.testng.TestRunner.privateRun(TestRunner.java:749)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:317)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:274)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:223)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1039)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:964)
+	at org.testng.TestNG.run(TestNG.java:900)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: javax.mail.SendFailedException: Invalid Addresses;
+  nested exception is:
+	com.sun.mail.smtp.SMTPAddressFailedException: 554 5.7.1 <unknown[106.51.49.134]>: Client host rejected: Access denied
+;
+  nested exception is:
+	com.sun.mail.smtp.SMTPAddressFailedException: 554 5.7.1 <unknown[106.51.49.134]>: Client host rejected: Access denied
+
+	at com.sun.mail.smtp.SMTPTransport.rcptTo(SMTPTransport.java:2079)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1301)
+	at javax.mail.Transport.send0(Transport.java:255)
+	at javax.mail.Transport.send(Transport.java:124)
+	at BWV_Package.Send_Email.mail_configuration(Send_Email.java:176)
+	... 25 more
+Caused by: com.sun.mail.smtp.SMTPAddressFailedException: 554 5.7.1 <unknown[106.51.49.134]>: Client host rejected: Access denied
+;
+  nested exception is:
+	com.sun.mail.smtp.SMTPAddressFailedException: 554 5.7.1 <unknown[106.51.49.134]>: Client host rejected: Access denied
+
+	at com.sun.mail.smtp.SMTPTransport.rcptTo(SMTPTransport.java:1979)
+	... 29 more
+Caused by: com.sun.mail.smtp.SMTPAddressFailedException: 554 5.7.1 <unknown[106.51.49.134]>: Client host rejected: Access denied
+
+	... 30 more
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="endTest()" name="endTest" is-config="true" duration-ms="44" started-at="2019-05-20T13:42:09Z" finished-at="2019-05-20T13:42:09Z">
+        </test-method>
+      </class>
+      <class name="BWV_Package.Report_generate">
+        <test-method status="PASS" signature="Properties_config()" name="Properties_config" duration-ms="31" started-at="2019-05-20T13:42:03Z" finished-at="2019-05-20T13:42:03Z">
+        </test-method>
+        <test-method status="PASS" signature="Generate_Token()" name="Generate_Token" duration-ms="2178" started-at="2019-05-20T13:42:03Z" finished-at="2019-05-20T13:42:05Z">
+        </test-method>
+        <test-method status="PASS" signature="Get_values()" name="Get_values" duration-ms="437" started-at="2019-05-20T13:42:05Z" finished-at="2019-05-20T13:42:06Z">
+        </test-method>
+        <test-method status="PASS" signature="Write_Totrecords()" name="Write_Totrecords" duration-ms="420" started-at="2019-05-20T13:42:06Z" finished-at="2019-05-20T13:42:06Z">
+        </test-method>
+        <test-method status="PASS" signature="Write_Tot_Cont_off_wise()" name="Write_Tot_Cont_off_wise" duration-ms="51" started-at="2019-05-20T13:42:06Z" finished-at="2019-05-20T13:42:06Z">
+        </test-method>
+        <test-method status="PASS" signature="Write_Totalcount()" name="Write_Totalcount" duration-ms="64" started-at="2019-05-20T13:42:06Z" finished-at="2019-05-20T13:42:06Z">
+        </test-method>
+        <test-method status="PASS" signature="Write_Totalaction()" name="Write_Totalaction" duration-ms="21" started-at="2019-05-20T13:42:06Z" finished-at="2019-05-20T13:42:06Z">
+        </test-method>
+        <test-method status="PASS" signature="Write_allfiles()" name="Write_allfiles" duration-ms="325" started-at="2019-05-20T13:42:06Z" finished-at="2019-05-20T13:42:07Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

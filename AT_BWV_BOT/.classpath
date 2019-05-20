@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/cldc-1.1-java5.0.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/commons-collections4-4.2.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/commons-compress-1.18.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/commons-compress-1.18-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/commons-compress-1.18-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/commons-compress-1.18-tests.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/commons-compress-1.18-test-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/guava-20.0.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/httpcore-4.0-alpha6.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/java-json.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/javassist-3.21.0-GA.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/javax.mail-api-1.5.5.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/jxl-2.6.3.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/org.apache.commons.io.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/poi-4.0.0.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/poi-ooxml-4.0.0.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/poi-ooxml-schemas-4.0.0.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/reflections-0.9.11.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/selenium-support-2.9.0.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/testng-6.0.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/xcelite-1.2.3.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/xmlbeans-3.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/Extend reports_jar/Extentreports-3.1.5/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/Extend reports_jar/Extentreports-3.1.5/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/Extend reports_jar/Extentreports-3.1.5/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/Extend reports_jar/Extentreports-3.1.5/extentreports-3.1.5.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/Extend reports_jar/Extentreports-3.1.5/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/Extend reports_jar/Extentreports-3.1.5/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/Extend reports_jar/Extentreports-3.1.5/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/Extend reports_jar/Extentreports-3.1.5/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/Extend reports_jar/Extentreports-3.1.5/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/Extend reports_jar/Extentreports-3.1.5/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/Extend reports_jar/Extentreports-3.1.5/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/Extend reports_jar/Extentreports-3.1.5/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/xcelite-1.2.3/Activation jar/activation.jar"/>
+	<classpathentry kind="lib" path="E:/Eclipse_projects/Selenium Jar/xcelite-1.2.3/Activation jar/javax.mail.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="CBELAP-054" name="BWV_Package.Get_token" tests="12" failures="1" timestamp="20 May 2019 08:12:09 GMT" time="6.332" errors="0">
+  <testcase name="Properties_config" time="0.231" classname="BWV_Package.Get_token"/>
+  <testcase name="Properties_config" time="0.457" classname="BWV_Package.Send_Email"/>
+  <testcase name="Properties_config" time="0.031" classname="BWV_Package.Report_generate"/>
+  <testcase name="Generate_Token" time="2.178" classname="BWV_Package.Report_generate"/>
+  <testcase name="Get_values" time="0.437" classname="BWV_Package.Report_generate"/>
+  <testcase name="Write_Totrecords" time="0.42" classname="BWV_Package.Report_generate"/>
+  <testcase name="Write_Tot_Cont_off_wise" time="0.051" classname="BWV_Package.Report_generate"/>
+  <testcase name="Write_Totalcount" time="0.064" classname="BWV_Package.Report_generate"/>
+  <testcase name="Write_Totalaction" time="0.021" classname="BWV_Package.Report_generate"/>
+  <testcase name="Write_allfiles" time="0.325" classname="BWV_Package.Report_generate"/>
+  <testcase name="get_results" time="0.001" classname="BWV_Package.Send_Email"/>
+  <testcase name="mail_configuration" time="1.707" classname="BWV_Package.Send_Email">
+    <failure type="java.lang.RuntimeException" message="javax.mail.SendFailedException: Invalid Addresses;
+  nested exception is:
+	com.sun.mail.smtp.SMTPAddressFailedException: 554 5.7.1 &amp;lt;unknown[106.51.49.134]&amp;gt;: Client host rejected: Access denied
+;
+  nested exception is:
+	com.sun.mail.smtp.SMTPAddressFailedException: 554 5.7.1 &amp;lt;unknown[106.51.49.134]&amp;gt;: Client host rejected: Access denied
+">
+      <![CDATA[java.lang.RuntimeException: javax.mail.SendFailedException: Invalid Addresses;
+  nested exception is:
+	com.sun.mail.smtp.SMTPAddressFailedException: 554 5.7.1 <unknown[106.51.49.134]>: Client host rejected: Access denied
+;
+  nested exception is:
+	com.sun.mail.smtp.SMTPAddressFailedException: 554 5.7.1 <unknown[106.51.49.134]>: Client host rejected: Access denied
+
+	at BWV_Package.Send_Email.mail_configuration(Send_Email.java:185)
+Caused by: javax.mail.SendFailedException: Invalid Addresses;
+  nested exception is:
+	com.sun.mail.smtp.SMTPAddressFailedException: 554 5.7.1 <unknown[106.51.49.134]>: Client host rejected: Access denied
+;
+  nested exception is:
+	com.sun.mail.smtp.SMTPAddressFailedException: 554 5.7.1 <unknown[106.51.49.134]>: Client host rejected: Access denied
+
+	at com.sun.mail.smtp.SMTPTransport.rcptTo(SMTPTransport.java:2079)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1301)
+	at javax.mail.Transport.send0(Transport.java:255)
+	at javax.mail.Transport.send(Transport.java:124)
+	at BWV_Package.Send_Email.mail_configuration(Send_Email.java:176)
+	... 25 more
+Caused by: com.sun.mail.smtp.SMTPAddressFailedException: 554 5.7.1 <unknown[106.51.49.134]>: Client host rejected: Access denied
+;
+  nested exception is:
+	com.sun.mail.smtp.SMTPAddressFailedException: 554 5.7.1 <unknown[106.51.49.134]>: Client host rejected: Access denied
+
+	at com.sun.mail.smtp.SMTPTransport.rcptTo(SMTPTransport.java:1979)
+	... 29 more
+Caused by: com.sun.mail.smtp.SMTPAddressFailedException: 554 5.7.1 <unknown[106.51.49.134]>: Client host rejected: Access denied
+
+	... 30 more
+... Removed 25 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>
